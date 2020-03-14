@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="CETS"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="cc" green="cc" red="cc" type="rgb"/>
+    </Property>
+    <Property name="location" type="java.awt.Point" editor="org.netbeans.beaninfo.editors.PointEditor">
+      <Point value="[475, 200]"/>
+    </Property>
+    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[600, 620]"/>
+    </Property>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[600, 620]"/>
+    </Property>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[600, 620]"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jSeparator1" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="createAccountLbl" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="331" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="profileLbl" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="402" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="licenseTitleLbl" min="-2" max="-2" attributes="0"/>
+                                  <Component id="licenseNumberLbl" alignment="0" min="-2" pref="65" max="-2" attributes="0"/>
+                                  <Component id="firstNameLbl" min="-2" pref="66" max="-2" attributes="0"/>
+                                  <Component id="dateIssuedLbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="expirationDateLbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="expireMonthBox" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="expireDayBox" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="expireYearBox" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                                          <Component id="licenseNumberWarningLbl" alignment="0" max="32767" attributes="0"/>
+                                                          <Component id="licenseNumberFld" alignment="0" max="32767" attributes="0"/>
+                                                          <Component id="licenseTitleFld" alignment="0" pref="190" max="32767" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="issueMonthBox" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="issueDayBox" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="issueYearBox" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" attributes="0">
+                                                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                                          <Component id="datesWarningLbl" max="32767" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="numHoursNeededWarningLbl" alignment="1" max="32767" attributes="0"/>
+                                                              <Group type="102" attributes="0">
+                                                                  <Component id="numHoursNeededLbl" min="-2" max="-2" attributes="0"/>
+                                                                  <EmptySpace max="-2" attributes="0"/>
+                                                                  <Component id="numHoursNeededFld" min="-2" pref="82" max="-2" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="208" max="-2" attributes="0"/>
+                                                  <Component id="stateLbl" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Component id="stateBox" min="-2" pref="135" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="firstNameFld" min="-2" pref="142" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                              <Component id="lastNameLbl" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="lastNameFld" min="-2" pref="135" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                                      <Component id="createAccountDoneBtn" min="-2" pref="81" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="createAccountCancelBtn" min="-2" pref="81" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="newPasswordLbl" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="newUsernameLbl" min="-2" pref="145" max="-2" attributes="0"/>
+                                  <Component id="confirmPwdLbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="40" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="commonPasswordWarningLbl" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="newUsernameFld" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="newPasswordFld" max="32767" attributes="0"/>
+                                      <Component id="confirmPwdFld" alignment="1" pref="170" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="passwordReqLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="availableBtn" min="-2" pref="81" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="availableAnswerLbl" min="-2" pref="41" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="34" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="createAccountLbl" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="availableAnswerLbl" alignment="1" min="-2" pref="24" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="newUsernameLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="newUsernameFld" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="availableBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="newPasswordLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="passwordReqLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="newPasswordFld" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="confirmPwdLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="confirmPwdFld" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+              <Component id="commonPasswordWarningLbl" min="-2" pref="12" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Component id="profileLbl" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="firstNameLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="firstNameFld" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lastNameLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lastNameFld" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="licenseTitleLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="licenseTitleFld" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="stateLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="stateBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="licenseNumberLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="licenseNumberFld" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="numHoursNeededLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="numHoursNeededFld" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="licenseNumberWarningLbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dateIssuedLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="issueMonthBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="issueDayBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="issueYearBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="expirationDateLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="expireMonthBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="expireDayBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="expireYearBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="createAccountDoneBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="createAccountCancelBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                      <Component id="numHoursNeededWarningLbl" min="-2" pref="16" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      <Component id="datesWarningLbl" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="113" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="createAccountLbl">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Create Account"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="newUsernameLbl">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="New Username"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="newPasswordLbl">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="New Password"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="newUsernameFld">
+    </Component>
+    <Component class="javax.swing.JButton" name="availableBtn">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="10" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Available?"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="availableBtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="profileLbl">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Profile Information"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="availableAnswerLbl">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="cc" red="33" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="firstNameLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="First Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="firstNameFld">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lastNameLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Last Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="lastNameFld">
+    </Component>
+    <Component class="javax.swing.JLabel" name="licenseTitleLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="License Title"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="licenseTitleFld">
+    </Component>
+    <Component class="javax.swing.JLabel" name="licenseNumberLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="License #"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="licenseNumberFld">
+    </Component>
+    <Component class="javax.swing.JLabel" name="dateIssuedLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date of Issue"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="numHoursNeededLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="# Hours Needed"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="numHoursNeededFld">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="e.g. 50"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="expirationDateLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Expires On"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="stateLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="State"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="createAccountDoneBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Done"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="createAccountDoneBtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="createAccountCancelBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="createAccountCancelBtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="passwordReqLbl">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="10" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="At Least 8 Characters"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="confirmPwdLbl">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Confirm Password"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JPasswordField" name="confirmPwdFld">
+    </Component>
+    <Component class="javax.swing.JPasswordField" name="newPasswordFld">
+    </Component>
+    <Component class="javax.swing.JLabel" name="commonPasswordWarningLbl">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="10" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="stateBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="61">
+            <StringItem index="0" value="AL"/>
+            <StringItem index="1" value="AK"/>
+            <StringItem index="2" value="AR"/>
+            <StringItem index="3" value="AZ"/>
+            <StringItem index="4" value="CA"/>
+            <StringItem index="5" value="CO"/>
+            <StringItem index="6" value="CT"/>
+            <StringItem index="7" value="DE"/>
+            <StringItem index="8" value="FL"/>
+            <StringItem index="9" value="GA"/>
+            <StringItem index="10" value="HI"/>
+            <StringItem index="11" value="IA"/>
+            <StringItem index="12" value="ID"/>
+            <StringItem index="13" value="IL"/>
+            <StringItem index="14" value="IN"/>
+            <StringItem index="15" value="KS"/>
+            <StringItem index="16" value="KY"/>
+            <StringItem index="17" value="LA"/>
+            <StringItem index="18" value="MA"/>
+            <StringItem index="19" value="ME"/>
+            <StringItem index="20" value="MD"/>
+            <StringItem index="21" value="MI"/>
+            <StringItem index="22" value="MN"/>
+            <StringItem index="23" value="MO"/>
+            <StringItem index="24" value="MS"/>
+            <StringItem index="25" value="MT"/>
+            <StringItem index="26" value="NC"/>
+            <StringItem index="27" value="ND"/>
+            <StringItem index="28" value="NE"/>
+            <StringItem index="29" value="NH"/>
+            <StringItem index="30" value="NJ"/>
+            <StringItem index="31" value="NM"/>
+            <StringItem index="32" value="NV"/>
+            <StringItem index="33" value="NY"/>
+            <StringItem index="34" value="OH"/>
+            <StringItem index="35" value="OK"/>
+            <StringItem index="36" value="OR"/>
+            <StringItem index="37" value="PA"/>
+            <StringItem index="38" value="RI"/>
+            <StringItem index="39" value="SC"/>
+            <StringItem index="40" value="SD"/>
+            <StringItem index="41" value="TN"/>
+            <StringItem index="42" value="TX"/>
+            <StringItem index="43" value="UT"/>
+            <StringItem index="44" value="VA"/>
+            <StringItem index="45" value="VT"/>
+            <StringItem index="46" value="WA"/>
+            <StringItem index="47" value="WI"/>
+            <StringItem index="48" value="WV"/>
+            <StringItem index="49" value="WY"/>
+            <StringItem index="50" value="USA"/>
+            <StringItem index="51" value="AS"/>
+            <StringItem index="52" value="FM"/>
+            <StringItem index="53" value="GU"/>
+            <StringItem index="54" value="MH"/>
+            <StringItem index="55" value="MP"/>
+            <StringItem index="56" value="PW"/>
+            <StringItem index="57" value="PR"/>
+            <StringItem index="58" value="VI"/>
+            <StringItem index="59" value=" "/>
+            <StringItem index="60" value=" "/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="stateBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="issueMonthBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="12">
+            <StringItem index="0" value="JAN"/>
+            <StringItem index="1" value="FEB"/>
+            <StringItem index="2" value="MAR"/>
+            <StringItem index="3" value="APR"/>
+            <StringItem index="4" value="MAY"/>
+            <StringItem index="5" value="JUN"/>
+            <StringItem index="6" value="JUL"/>
+            <StringItem index="7" value="AUG"/>
+            <StringItem index="8" value="SEP"/>
+            <StringItem index="9" value="OCT"/>
+            <StringItem index="10" value="NOV"/>
+            <StringItem index="11" value="DEC"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="issueDayBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="31">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+            <StringItem index="7" value="8"/>
+            <StringItem index="8" value="9"/>
+            <StringItem index="9" value="10"/>
+            <StringItem index="10" value="11"/>
+            <StringItem index="11" value="12"/>
+            <StringItem index="12" value="13"/>
+            <StringItem index="13" value="14"/>
+            <StringItem index="14" value="15"/>
+            <StringItem index="15" value="16"/>
+            <StringItem index="16" value="17"/>
+            <StringItem index="17" value="18"/>
+            <StringItem index="18" value="19"/>
+            <StringItem index="19" value="20"/>
+            <StringItem index="20" value="21"/>
+            <StringItem index="21" value="22"/>
+            <StringItem index="22" value="23"/>
+            <StringItem index="23" value="24"/>
+            <StringItem index="24" value="25"/>
+            <StringItem index="25" value="26"/>
+            <StringItem index="26" value="27"/>
+            <StringItem index="27" value="28"/>
+            <StringItem index="28" value="29"/>
+            <StringItem index="29" value="30"/>
+            <StringItem index="30" value="31"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="issueYearBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="50">
+            <StringItem index="0" value="2020"/>
+            <StringItem index="1" value="2019"/>
+            <StringItem index="2" value="2018"/>
+            <StringItem index="3" value="2017"/>
+            <StringItem index="4" value="2016"/>
+            <StringItem index="5" value="2015"/>
+            <StringItem index="6" value="2014"/>
+            <StringItem index="7" value="2013"/>
+            <StringItem index="8" value="2011"/>
+            <StringItem index="9" value="2010"/>
+            <StringItem index="10" value="2009"/>
+            <StringItem index="11" value="2008"/>
+            <StringItem index="12" value="2007"/>
+            <StringItem index="13" value="2006"/>
+            <StringItem index="14" value="2005"/>
+            <StringItem index="15" value="2004"/>
+            <StringItem index="16" value="2003"/>
+            <StringItem index="17" value="2002"/>
+            <StringItem index="18" value="2001"/>
+            <StringItem index="19" value="2000"/>
+            <StringItem index="20" value="1999"/>
+            <StringItem index="21" value="1998"/>
+            <StringItem index="22" value="1997"/>
+            <StringItem index="23" value="1996"/>
+            <StringItem index="24" value="1995"/>
+            <StringItem index="25" value="1994"/>
+            <StringItem index="26" value="1993"/>
+            <StringItem index="27" value="1992"/>
+            <StringItem index="28" value="1991"/>
+            <StringItem index="29" value="1990"/>
+            <StringItem index="30" value="1989"/>
+            <StringItem index="31" value="1988"/>
+            <StringItem index="32" value="1987"/>
+            <StringItem index="33" value="1986"/>
+            <StringItem index="34" value="1985"/>
+            <StringItem index="35" value="1984"/>
+            <StringItem index="36" value="1983"/>
+            <StringItem index="37" value="1982"/>
+            <StringItem index="38" value="1981"/>
+            <StringItem index="39" value="1980"/>
+            <StringItem index="40" value="1979"/>
+            <StringItem index="41" value="1978"/>
+            <StringItem index="42" value="1977"/>
+            <StringItem index="43" value="1976"/>
+            <StringItem index="44" value="1975"/>
+            <StringItem index="45" value="1974"/>
+            <StringItem index="46" value="1973"/>
+            <StringItem index="47" value="1972"/>
+            <StringItem index="48" value="1971"/>
+            <StringItem index="49" value="1970"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="expireMonthBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="12">
+            <StringItem index="0" value="JAN"/>
+            <StringItem index="1" value="FEB"/>
+            <StringItem index="2" value="MAR"/>
+            <StringItem index="3" value="APR"/>
+            <StringItem index="4" value="MAY"/>
+            <StringItem index="5" value="JUN"/>
+            <StringItem index="6" value="JUL"/>
+            <StringItem index="7" value="AUG"/>
+            <StringItem index="8" value="SEP"/>
+            <StringItem index="9" value="OCT"/>
+            <StringItem index="10" value="NOV"/>
+            <StringItem index="11" value="DEC"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="expireDayBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="31">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+            <StringItem index="7" value="8"/>
+            <StringItem index="8" value="9"/>
+            <StringItem index="9" value="10"/>
+            <StringItem index="10" value="11"/>
+            <StringItem index="11" value="12"/>
+            <StringItem index="12" value="13"/>
+            <StringItem index="13" value="14"/>
+            <StringItem index="14" value="15"/>
+            <StringItem index="15" value="16"/>
+            <StringItem index="16" value="17"/>
+            <StringItem index="17" value="18"/>
+            <StringItem index="18" value="19"/>
+            <StringItem index="19" value="20"/>
+            <StringItem index="20" value="21"/>
+            <StringItem index="21" value="22"/>
+            <StringItem index="22" value="23"/>
+            <StringItem index="23" value="24"/>
+            <StringItem index="24" value="25"/>
+            <StringItem index="25" value="26"/>
+            <StringItem index="26" value="27"/>
+            <StringItem index="27" value="28"/>
+            <StringItem index="28" value="29"/>
+            <StringItem index="29" value="30"/>
+            <StringItem index="30" value="31"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="expireYearBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="21">
+            <StringItem index="0" value="2020"/>
+            <StringItem index="1" value="2021"/>
+            <StringItem index="2" value="2022"/>
+            <StringItem index="3" value="2023"/>
+            <StringItem index="4" value="2024"/>
+            <StringItem index="5" value="2025"/>
+            <StringItem index="6" value="2026"/>
+            <StringItem index="7" value="2027"/>
+            <StringItem index="8" value="2028"/>
+            <StringItem index="9" value="2029"/>
+            <StringItem index="10" value="2030"/>
+            <StringItem index="11" value="2031"/>
+            <StringItem index="12" value="2032"/>
+            <StringItem index="13" value="2033"/>
+            <StringItem index="14" value="2034"/>
+            <StringItem index="15" value="2035"/>
+            <StringItem index="16" value="2036"/>
+            <StringItem index="17" value="2037"/>
+            <StringItem index="18" value="2038"/>
+            <StringItem index="19" value="2039"/>
+            <StringItem index="20" value="2040"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="licenseNumberWarningLbl">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="10" style="2"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value=" "/>
+        <Property name="verticalAlignment" type="int" value="1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="numHoursNeededWarningLbl">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="10" style="2"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value=" "/>
+        <Property name="verticalAlignment" type="int" value="1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="datesWarningLbl">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="10" style="2"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
